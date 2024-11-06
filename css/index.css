@@ -15,6 +15,7 @@ main{
 }
 header{
     text-align: center;
+    margin: auto 20px;
 }
 .bullet-line{
     background-color: black;
@@ -49,7 +50,6 @@ header{
 
 .date{
     color: black;
-    border: 1px solid black;
     flex:1;
     margin-right: 10px;
     text-align: center;
@@ -67,12 +67,11 @@ header{
 
 .change{
     color: black;
-    border: 1px solid black;
     margin-left: 10px;
     flex:1;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    padding-left: 10px;
 }
 
 .connector-container{
