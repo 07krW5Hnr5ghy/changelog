@@ -17,6 +17,9 @@ header{
     text-align: center;
     margin: auto 20px;
 }
+.header-p{
+    color:lightslategray;
+}
 .bullet-line{
     background-color: black;
     position: relative;
