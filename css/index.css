@@ -74,13 +74,12 @@ header{
     padding-left: 10px;
 }
 
-.connector-container{
+.button-container{
     display: flex;
     flex-direction: column;
-}
-
-.button-container{
-    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
 }
 
 .visit-button{
