@@ -1,6 +1,8 @@
+
 body{
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 main{
     display:flex;
@@ -8,35 +10,49 @@ main{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    gap:0;
+    position: relative;
 }
-.main-line{
+header{
+    text-align: center;
+}
+.bullet-line{
     background-color: black;
-    height: 80vh;
-    width: 3px;
-    border-radius: 5px;
-    overflow: visible;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    position: relative;
+    top:0;
+    width: 5px;
+    height: 100%;
+    z-index: 4;
 }
-.bullet-container{
+.item-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
-.bullet-container > p{
+.item-container > p{
     color: black;
+}
+
+.bullet-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .date{
     color: black;
     border: 1px solid black;
-    text-align: left;
     flex:1;
+    margin-right: 10px;
+    text-align: center;
 }
 
 .bullet{
@@ -45,12 +61,33 @@ main{
     height: 20px;
     border: 1px solid black;
     border-radius: 50%;
+    position: absolute;
+    top: 10;
 }
 
 .change{
     color: black;
     border: 1px solid black;
-    text-align: right;
+    margin-left: 10px;
     flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
+.connector-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container{
+    margin-top: 10%;
+}
+
+.visit-button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
