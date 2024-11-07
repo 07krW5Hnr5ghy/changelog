@@ -24,7 +24,7 @@ header{
     background-color: black;
     position: relative;
     top:0;
-    width: 5px;
+    width: 2px;
     height: 100%;
     z-index: 4;
 }
@@ -60,8 +60,8 @@ header{
 
 .bullet{
     background-color: black;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 1px solid black;
     border-radius: 50%;
     position: absolute;
