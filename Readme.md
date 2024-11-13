@@ -6,7 +6,6 @@ This project is an changelog component.
 
 - [Demo](#demo)
 - [Technologies](#technologies)
-- [Structure](#structure)
 - [Usage](#usage)
 - [Contact](#contact)
 
@@ -19,13 +18,7 @@ To view the personal page, open the `index.html` file in a browser.
 This personal page is created with:
 
 - HTML
-
-## Structure
-
-The personal page contains the following sections:
-
-1. **Header**: Displays the name and profesion.
-2. **Changelog**: Contains bullet with the changes of a project.
+- CSS
 
 ## Usage
 
@@ -33,8 +26,8 @@ The personal page contains the following sections:
 2. Open `index.html` in your browser to view the CV.
 
 ```bash
-git clone <repository-url>
-cd basic
+git clone https://github.com/07krW5Hnr5ghy/changelog
+cd changelog
 open index.html
 ```
 
