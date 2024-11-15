@@ -20,11 +20,7 @@ header{
 .header-p{
     color:lightslategray;
 }
-.bullet-line{
-    background-color: black;
-    width: 2px;
-    height: 100%;
-}
+
 .item-container{
     display: flex;
     flex-direction: row;
@@ -40,6 +36,13 @@ header{
     color: black;
 }
 
+.date{
+    color: lightslategray;
+    flex:1;
+    padding-right: 40px;
+    text-align: right;
+}
+
 .bullet-container{
     display: flex;
     flex-direction: column;
@@ -48,11 +51,10 @@ header{
     height: 100%;
 }
 
-.date{
-    color: lightslategray;
-    flex:1;
-    padding-right: 40px;
-    text-align: right;
+.bullet-line{
+    background-color: black;
+    width: 2px;
+    height: 100%;
 }
 
 .bullet{
