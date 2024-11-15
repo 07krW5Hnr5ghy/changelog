@@ -70,7 +70,6 @@ header{
     color: black;
     flex:1;
     display: flex;
-    flex-wrap: wrap;
     padding-left: 20px;
 }
 
