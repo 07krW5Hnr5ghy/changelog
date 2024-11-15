@@ -22,11 +22,8 @@ header{
 }
 .bullet-line{
     background-color: black;
-    position: relative;
-    top:0;
     width: 2px;
     height: 100%;
-    z-index: 4;
 }
 .item-container{
     display: flex;
@@ -65,7 +62,6 @@ header{
     border: 1px solid black;
     border-radius: 50%;
     position: absolute;
-    top: 10;
 }
 
 .change{
